@@ -30,14 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-signrank-quantile
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-signrank-quantile@deno/mod.js';
+var quantile = require( '@stdlib/stats-base-dists-signrank-quantile' );
 ```
 
 #### quantile( p, n )
@@ -107,9 +123,9 @@ y = myQuantile( 1.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randint from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-signrank-quantile@deno/mod.js';
+var randint = require( '@stdlib/random-base-discrete-uniform' );
+var randu = require( '@stdlib/random-base-randu' );
+var quantile = require( '@stdlib/stats-base-dists-signrank-quantile' );
 
 var n;
 var p;
@@ -145,7 +161,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -201,6 +217,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-dists-signrank-quantile/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-signrank-quantile/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-signrank-quantile/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-dists-signrank-quantile/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-signrank-quantile/main/LICENSE
 
